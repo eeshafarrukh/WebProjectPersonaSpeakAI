@@ -1,0 +1,12 @@
+.Sidebar {
+    display: flex;
+}
+
+.sidebar-menu {
+    width: 250px; /* Width of the sidebar menu */
+}
+
+.MuiDrawer-paper {
+    width: 100%; /* Ensure the sidebar fills the width of the screen */
+    max-width: 250px; /* Limit maximum width if needed */
+}

@@ -1,0 +1,30 @@
+/* src/AboutUsStyles.css */
+
+.AboutUs-Container {
+    background-color: #f3eaff;
+    color: #5d5d5a;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .AboutUs-Title {
+    color: #6a5acd;
+  }
+  
+  .AboutUs-Text, .AboutUs-MoreText {
+    margin: 20px 0;
+  }
+  
+  .AboutUs-MoreText {
+    display: none;
+  }
+  
+  .AboutUs-ShowMore {
+    background-color: transparent;
+    border: 1px solid #6a5acd;
+    color: #6a5acd;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  

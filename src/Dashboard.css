@@ -1,0 +1,65 @@
+.lifetimevalue {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  font-family: "Arial", sans-serif;
+  border: #333;
+}
+
+.dashboard {
+  padding: 40px;
+}
+
+.lifetimevalue h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.stats-container1,
+.stats-container2,
+.stats-container3 {
+  border: 0.1rem solid black;
+  padding: 10px;
+  border-radius: 8px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stats-container > div:not(:last-child) {
+  margin-right: 5%;
+}
+
+.chart-container {
+  display: flex;
+}
+
+.line-chart-container,
+.conversion-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+  padding: 10px;
+}
+
+.line-chart-container h2,
+.conversion-container h2 {
+  margin-bottom: 10px;
+}
+
+.line-chart-container img,
+.conversion-container img {
+  max-width: 70%;
+  height: 400px;
+}
